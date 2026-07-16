@@ -81,11 +81,11 @@ h2{
 
 p{
 
-    color:#f8fafc;
+    color:#ffffff;
 
     line-height:1.8;
     
-    background-color: rgba(255, 227, 170, 0.7);
+    background-color: rgb(18, 1, 95);
     padding: 10px 20px;
     border-radius: 20px;
     
@@ -104,21 +104,20 @@ p{
 
 .card{
 
-    background:rgba(255, 227, 170, 0.7);
+    background:rgb(18, 1, 95);
 
-    border:1px solid #2e07ee;
+    border:1px solid #000000;
 
     padding:25px;
 
     border-radius:18px;
 
-    transition:.3s;
 }
 
 
 
 .card h3{
-
+    color: #00bbff;
     margin-bottom:15px;
 }
 
