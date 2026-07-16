@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:"Inter",sans-serif;
+    background:#080806;
+
+    color:#f8fafc;
+
+    background-image:
+    radial-gradient(#2e07ee 1px, transparent 1px);
+    background-attachment:fixed;
+    background-size:28px 28px;
+}
+
+.container{
+    text-align: center;
+    width:90%;
+
+    max-width:1100px;
+
+    margin:auto;
+}
+
+
+.logo{
+
+    font-size:1.4rem;
+
+    font-weight:700;
+}
+
+
+/* Hero */
+
+.hero{
+
+    text-align:center;
+
+    padding:130px 0;
+}
+
+.hero h1{
+    border: #f8fc04;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #080806;
+    font-size:4rem;
+
+    margin-bottom:20px;
+}
+
+.hero span{
+
+    color:#4b0df7;
+}
+
+/* Sections */
+
+section{
+
+    padding:10px 0;
+}
+
+h2{
+    font-size:2rem;
+
+    margin-bottom:20px;
+
+    color:#4b0df7;
+}
+
+
+p{
+
+    color:#f8fafc;
+
+    line-height:1.8;
+    
+    background-color: rgba(255, 227, 170, 0.7);
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+
+/* Public Logs*/
+
+.public-logs{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(auto,1fr));
+
+    gap:5px;
+}
+
+.card{
+
+    background:rgba(255, 227, 170, 0.7);
+
+    border:1px solid #2e07ee;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    transition:.3s;
+}
+
+
+
+.card h3{
+
+    margin-bottom:15px;
+}
+
+/* Footer */
+
+footer{
+
+    margin-top:80px;
+
+    border-top:1px solid #334155;
+
+    padding:50px 0;
+
+    text-align:center;
+}
+
+.socials{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    margin:30px 0;
+}
+
+.socials a{
+
+    color:#f8fafc;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.socials a:hover{
+
+    color:white;
+}
+
+.copyright{
+    background-color: #080806;
+    color:#64748b;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+
+.hero h1{
+
+    font-size:2.8rem;
+}
+
+.hero{
+
+    padding:10px 0;
+}
+
+.socials{
+
+    flex-direction:column;
+
+    gap:15px;
+}
+
+}
